@@ -68,8 +68,8 @@ function start() {
                     seconds = seconds - 1;
                     document.getElementById("seconds").innerHTML = seconds;
                     
-                    if(seconds <= 57){
-                        if(minutes <= 24){
+                    if(seconds <= 0){
+                        if(minutes <= 0){
                             session_completed = session_completed + 1;
                             brake = 1;
                             //count = count + 1;
@@ -127,8 +127,8 @@ function start() {
                         seconds = seconds - 1;
                         document.getElementById("seconds").innerHTML = seconds;
                         
-                        if(seconds <= 57){
-                            if(minutes <= 14){
+                        if(seconds <= 0){
+                            if(minutes <= 0){
                                 clearInterval(minutes_interval);
                                 clearInterval(seconds_interval);
                                 document.getElementById("done").innerHTML = "Break Over!! Get Back to Work!!";
@@ -165,8 +165,8 @@ function start() {
                         seconds = seconds - 1;
                         document.getElementById("seconds").innerHTML = seconds;
                         
-                        if(seconds <= 57){
-                            if(minutes <= 4){
+                        if(seconds <= 0){
+                            if(minutes <= 0){
                                 clearInterval(minutes_interval);
                                 clearInterval(seconds_interval);
                                 document.getElementById("done").innerHTML = "Break Over!! Get Back to Work!!";
