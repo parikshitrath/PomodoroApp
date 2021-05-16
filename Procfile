@@ -1,2 +1,2 @@
 web: gunicorn
-quotes :app
+faking_heroku :app
