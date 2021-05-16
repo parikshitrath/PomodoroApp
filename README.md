@@ -17,4 +17,4 @@ After starting the app the app guides the user about when to take a short break,
 
 This app is very useful for doing work efficiently.
 
-![picture](pomoss.png)
+![picture](pomoss.PNG)
